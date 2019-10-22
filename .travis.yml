@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "8"
+script:
+ - echo "Deploy!!"
+install:
+  - npm install -g firebase-tools
+after_success:
+  - firebase deploy --project freetools-92be7 --only hosting:freetools  --token $FIREBASE_TOKEN
+  - firebase deploy --project freetools-92be7 --only hosting:free-tools --token $FIREBASE_TOKEN

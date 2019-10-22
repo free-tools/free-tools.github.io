@@ -1,0 +1,23 @@
+{
+  "hosting": [{
+      "target": "freetools",
+      "public": ".",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**",
+        "**/.git/**"
+      ]
+    },
+    {
+      "target": "free-tools",
+      "public": ".",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**",
+        "**/.git/**"
+      ]
+    }
+  ]
+}

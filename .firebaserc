@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "freetools-92be7"
+  },
+  "targets": {
+    "freetools-92be7": {
+      "hosting": {
+        "freetools": [
+          "freetools"
+        ],
+        "free-tools": [
+          "free-tools"
+        ]
+      }
+    }
+  }
+}
